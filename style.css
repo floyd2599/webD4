@@ -1,0 +1,121 @@
+body, html {
+    font-family: 'Play';
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#canvas {
+    background: #ccc;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Play';
+    display: inline-block;
+    float: left ;
+}
+
+#controls {
+    float: left;
+    display: inline-block;
+    width: 20%;
+    background: #eee;
+    text-align: center;
+    margin: 0;
+}
+
+#stats {
+    width:20%;
+    background: #ccc;
+    display: inline-block;
+    float: left;
+    display: inline-block;
+}
+
+h1 {
+    margin:0;
+}
+
+#info {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    border-right: 20px solid #ccc;
+    border-left: 20px solid #ccc;
+    padding:0 50px 20px;
+}
+
+#info p {
+    font-size: 20px;
+}
+
+#you {
+    height: 30px;
+    width: 30px;
+    background: #369;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.exampleBlock {
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+    margin:0 5px;
+}
+
+#redExampleBlock {
+    background: #c33;
+}
+
+#greenExampleBlock {
+    background: #396;
+}
+
+#blueExampleBlock {
+    background: #369;
+}
+
+#bigExampleBlock {
+    background: orange;
+    width: 500px;
+    height: 50px;
+    display: inline-block;
+}
+
+.blue {
+    color: #369;
+}
+
+.red {
+    color: #c33;
+}
+
+.green {
+    color: #396;
+}
+
+.orange {
+    color: orange;
+}
+
+#info button {
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    background: #369;
+    color:#fff;
+    font-size: 20px;
+    border-radius: 2px;
+    -webkit-transition: background 0.5s; 
+    transition: background 0.5s;
+}
+
+#info button:hover {
+    background: #036;
+}
